@@ -1,0 +1,46 @@
+$mainColor:  rgb(26, 98, 122);
+$fontFamily: Helvetica, sans-serif;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+    width: 500px;
+    padding: 1rem;
+    background-color: $mainColor;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 0px 0px 5px gray;
+  }
+  
+.cardImg {
+    width: 80%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border-radius: inherit;
+    box-shadow: inherit;
+  }
+
+h1 {
+    color: $mainColor;
+    font: $fontFamily;
+}
+
+p {
+    font: $fontFamily;
+    font-size: 1rem;
+}
+
+button {
+    border:1px solid black;
+    border-radius: 20px;
+    box-shadow: inherit;
+}
